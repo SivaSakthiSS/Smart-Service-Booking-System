@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0D47A1;
+  --color-primary-hover: #0a3882;
+  --color-primary-light: #E3F2FD;
+  --color-accent: #FF8A00;
+  --color-accent-hover: #e67c00;
+  --color-accent-light: #FFF3E0;
+  --color-bg-light: #F5F7FA;
+  --color-text-dark: #1E293B;
+  --color-success: #22C55E;
+}
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    min-height: 100vh;
+    background-color: #F5F7FA;
+    color: #1E293B;
+  }
+}
+
+/* Custom Brand Utilities */
+.btn-accent {
+  background-color: #FF8A00;
+  color: #FFFFFF;
+  font-weight: 600;
+  transition: all 0.15s ease-in-out;
+}
+.btn-accent:hover {
+  background-color: #e67c00;
+  box-shadow: 0 4px 12px rgba(255, 138, 0, 0.25);
+}
+
+.btn-primary {
+  background-color: #0D47A1;
+  color: #FFFFFF;
+  font-weight: 600;
+  transition: all 0.15s ease-in-out;
+}
+.btn-primary:hover {
+  background-color: #0a3882;
+  box-shadow: 0 4px 12px rgba(13, 71, 161, 0.25);
+}

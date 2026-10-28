@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="roofGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stopColor="#0D47A1" />
+      <stop offset="100%" stopColor="#1976D2" />
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#FFA000" />
+      <stop offset="100%" stopColor="#FF8A00" />
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#1565C0" />
+      <stop offset="100%" stopColor="#0D47A1" />
+    </linearGradient>
+  </defs>
+
+  <!-- House Roof Peak -->
+  <path d="M50 8 L88 32 L78 39 L50 21 L22 39 L12 32 Z" fill="url(#roofGrad)" />
+
+  <!-- Upper S Ribbon in Vibrant Orange -->
+  <path d="M32 38 C 32 34, 40 28, 56 28 C 72 28, 80 36, 80 44 C 80 52, 68 56, 52 59 C 40 61, 32 64, 30 68 C 28 65, 29 55, 38 52 C 54 48, 66 47, 66 43 C 66 38, 60 36, 52 36 C 42 36, 36 40, 36 42 Z" fill="url(#orangeGrad)" />
+
+  <!-- Lower S Loop in Deep Primary Blue -->
+  <path d="M50 56 C 68 53, 84 57, 84 72 C 84 86, 68 94, 48 94 C 28 94, 16 84, 16 72 C 16 66, 20 60, 26 56 L 33 63 C 28 66, 26 70, 26 73 C 26 80, 34 85, 48 85 C 62 85, 72 80, 72 73 C 72 66, 62 63, 48 65 C 44 65, 40 64, 36 62 Z" fill="url(#blueGrad)" />
+
+  <!-- Integrated Tool / Wrench Cutout Silhouette -->
+  <g transform="translate(46, 68) rotate(-35) scale(0.7)">
+    <path d="M 6 0 L 22 0 C 25 -5, 31 -6, 35 -3 C 39 0, 40 6, 37 10 L 30 10 L 26 7 L 18 15 L 20 23 L 16 27 C 12 30, 6 29, 3 25 C 0 21, 1 15, 6 12 Z" fill="#FFFFFF" opacity="0.95" />
+  </g>
+</svg>
